@@ -1,0 +1,55 @@
+import java.util.Scanner;
+/**Ngaaia..COMP160
+  * 
+  * LAB 13
+  */
+public class Anagram{
+  public static void main(String[] args){
+    
+    Scanner scan = new Scanner (System.in);
+    
+    System.out.println("Enter first phrase");
+    String phrase1 = scan.nextLine();
+    
+    phrase1 = phrase1.toLowerCase();
+    
+    String newString = "";
+    
+    for(ch='a'; ch<='z'; ch++){
+      for(index=0; index<=phrase1.length(); index++){
+        if(phrase1.charAt(index)==ch)
+          newString = newString + ch;
+      }
+      
+      System.out.println();
+    }
+    
+    Scanner scan = new Scanner (System.in);
+    
+    System.out.println("Enter first phrase");
+    String phrase2= scan.nextLine();
+    
+    phrase2 = phrase2.toLowerCase();
+    
+    String newString2 = "";
+    
+    for(ch='a'; ch<='z'; ch++){
+      for(index=0; index<=phrase1.length(); index++){
+        if(phrase2.charAt(index)==ch)
+          newString2 = newString2 + ch;
+      }
+      
+      System.out.println();
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  }
+}

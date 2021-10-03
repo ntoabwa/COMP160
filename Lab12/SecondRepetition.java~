@@ -1,0 +1,48 @@
+import java.util.Scanner;
+/**Comp160...Lab12
+  * 
+  *Class SecondRepetition
+  */
+
+public class SecondRepetition{
+  
+  //main method which contains statements for printing out the sum of all the even numbers between 2 and the input
+  public static void main(String[] args){
+    
+    Scanner scan = new Scanner(System.in);
+    
+    
+    System.out.println("Enter a sentence");
+    
+    String mySentence = scan.nextLine();
+    
+    int index = 0;
+    int vowcount = 0;
+    int concount = 0;
+    
+    mySentence = mySentence.toLowerCase();
+    
+    
+    while(index < mySentence.length() ){
+      char ch = mySentence.charAt(index);
+      
+      switch(ch){
+        case 'a':
+        case 'e':
+        case 'i':
+        case 'o':
+        case 'u':
+          vowcount++;
+          break;
+          
+        default:
+          if('a'<=ch && ch<='z')
+          concount++;
+      }
+      index++;
+    }
+    System.out.println("VowelCount : " + vowcount);
+    System.out.println("ConsonantCount : " + concount);
+    
+  } 
+}

@@ -1,0 +1,16 @@
+/* Application class for Book*/
+
+public class BookShopApp {
+  
+  pubic static void main (String[] args) {
+    Book  = new Book();
+    Book book2 = new Book();
+    Book book3 = new Book();
+  }
+  
+  public void book1(
+    
+ 
+    
+    
+  

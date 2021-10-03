@@ -1,0 +1,21 @@
+/**Comp160..Lab15
+  * 
+  * Application class
+  */
+
+public class IntCounterApp{
+  
+  public static void main(String[] args){
+    
+  }
+  
+  public int makeArray(){ 
+    Random generator = new Random();
+    int [] myArray = new int[generator.nextInt(6)+5];
+    
+    return myArray;
+  }
+  
+  
+  
+}

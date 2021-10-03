@@ -1,0 +1,16 @@
+/** Comp 160..Lab15
+  * 
+  * Support class for arrays
+  */
+public class Array{
+  
+  private int[]numArray;
+  
+  public IntCounter(int[] numArray){
+    this.numArray = numArray;
+  }
+  
+  public void showTarget(int target){
+  
+  
+}

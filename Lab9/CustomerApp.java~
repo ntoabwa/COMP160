@@ -1,0 +1,9 @@
+
+
+public static CustomerApp{
+  
+  public static main (String [] args){
+   Customer customer1 = new Customer("Aaron Stott", false, true);
+  }
+
+    

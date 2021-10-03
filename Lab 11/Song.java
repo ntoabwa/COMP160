@@ -1,0 +1,1 @@
+System.out.println(songLine.substring(0, songLine.indexOf(' ', space1 + 1) ) ); 

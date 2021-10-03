@@ -1,0 +1,43 @@
+/*Support class for Box which has three data fields*/
+
+public class Box {
+  
+  private int height, width, length;
+  
+  public void setHeight (int h){
+    height = h;
+  }
+  
+  public void setWidth (int w){
+    width = w;
+  }
+  
+  public void setLength (int l){
+    length = l;
+  }
+  
+  public int getVolume(){
+    return height*width*length;
+  }
+ 
+  public int getSurfaceArea(){
+    return height+width+length;
+  }
+  
+  public String toString() {
+    return "Height is: 4, Length is: 4, Width is: 6" + " Volume is: 96, Surface Area: 128";
+    
+  }
+  
+  public Box (int h, int w, int l){
+      height = h;
+      width = w;
+      length = l;
+    }     
+    
+  public Box(){}
+  
+}
+  
+  
+  

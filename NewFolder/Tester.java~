@@ -1,0 +1,15 @@
+public class Tester{
+  int[] dunedinTemps= {15, 12,9,13, 14};
+  int[] aucklandTemps= {17, 15, 18, 14, 17};
+  int[][] temps = {dunedinTemps, aucklandTemps};
+  
+  public static void main(Strings[] args){
+    show(1,2);
+  }
+  
+  public void show(int row, int col){
+     System.out.println(temps[row] [col]);
+  }
+  
+}
+  

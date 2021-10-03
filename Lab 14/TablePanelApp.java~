@@ -1,0 +1,24 @@
+import javax.swing.*;
+/**Lab14...Application class
+  * 
+  */
+
+public class TablePanelApp{
+ 
+  public static void main (String[] ags){
+   JFrame frame = new JFrame (String [] args);
+   frame.setDefaultCloseOperation (JFrame.EXIT_ON_CLOSE);
+   frame.getContentPane().add(new TablePanel() );
+   frame.pack();
+   frame.setVisible(true);
+   
+   
+   
+   
+  
+  
+  }
+  
+  
+  
+}
